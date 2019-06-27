@@ -42,6 +42,6 @@ public class MainActivity extends AppCompatActivity implements MovieAdapterOnCli
     @Override
     public void onClick(Bitmap MovieImage) {
         Context context = this;
-        //Toast.makeText(context, MovieImage, Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, MovieImage, Toast.LENGTH_SHORT).show();
     }
 }
